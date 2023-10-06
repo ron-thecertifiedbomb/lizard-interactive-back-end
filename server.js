@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello, Lizard Interactive Back End Azure Web App!');
+  res.send('Lizard Interactive Back End Azure Web App!');
 });
 
 app.listen(port, () => {
